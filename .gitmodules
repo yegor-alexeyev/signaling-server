@@ -1,3 +1,0 @@
-[submodule "rust-websocket"]
-	path = rust-websocket
-	url = https://github.com/cyderize/rust-websocket
