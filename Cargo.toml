@@ -1,0 +1,27 @@
+[package]
+
+name = "signaling-server"
+version = "0.1.1"
+authors = ["Yegor Alexeyev <yegor.alexeyev@gmail.com>"]
+
+description = "A signaling server for WebRTC"
+
+homepage = "https://github.com/yegor-alexeyev/signaling-server/"
+repository = "https://github.com/yegor-alexeyev/signaling-server.git"
+
+readme = "README.md"
+
+keywords = ["webrtc", "signaling"]
+
+license = "MIT"
+
+[dependencies]
+hyper = "*"
+websocket = "~0.10.4"
+
+
+[[bin]]
+name = "webrtc-signald"
+path = "src/signald.rs"
+test = false
+doc = false
